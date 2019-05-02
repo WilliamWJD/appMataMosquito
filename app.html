@@ -9,7 +9,11 @@
 </head>
 <body onresize="ajustaTamanhoPalcoJogo()">
 
-	<script type="text/javascript">posicaoRandomica()</script>
+	<script type="text/javascript">
+		setInterval(function(){
+			posicaoRandomica()
+		},1000)
+	</script>
 
 </body>
 </html>
